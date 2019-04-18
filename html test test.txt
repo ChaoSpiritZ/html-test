@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>The Test Test</title>
+<style>
+
+*
+{
+  font-family: Arial;
+  color: green;
+}
+
+input
+{
+background-color: yellow;
+}
+
+#btn1
+{
+  background-color: green;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+First Name:
+<input type="text" name="firstname" placeholder="Enter your first name"/>
+<br/>
+Last Name:
+<input type="text" name="lastname" placeholder="Enter your last name"/>
+<br/>
+Age:
+<input type="number" name="age" />
+<br/><br/>
+1. Are you sure your first name is correct?
+<br/>
+<input type="radio" name="qst1" value="1" />Yes
+<br/>
+<input type="radio" name="qst1" value="2" />No
+<br/>
+<input type="radio" name="qst1" value="3" />Maybe
+<br/>
+<input type="radio" name="qst1" Value="4" />I don't Know
+<br/><br/>
+2. Are you sure your last name is correct?
+<br/>
+<input type="radio" name="qst2" value="1" />Yesss
+<br/>
+<input type="radio" name="qst2" value="2" />Nooo
+<br/>
+<input type="radio" name="qst2" value="3" />Maybe lol
+<br/>
+<input type="radio" name="qst2" Value="4" />I don't Know haha
+<br/><br/>
+3. Are you sure your age is correct?
+<br/>
+<input type="radio" name="qst3" value="1" />Yes, sir
+<br/>
+<input type="radio" name="qst3" value="2" />No, sir
+<br/>
+<input type="radio" name="qst3" value="3" />Maybe, sir
+<br/>
+<input type="radio" name="qst3" Value="4" />I don't Know, sir
+<br/><br/>
+4. Are you ready for the test?
+<br/>
+<input type="radio" name="qst4" value="1" />Y
+<br/>
+<input type="radio" name="qst4" value="2" />N
+<br/>
+<input type="radio" name="qst4" value="3" />M
+<br/>
+<input type="radio" name="qst4" Value="4" />IDK
+<br/><br/>
+<button type="submit" id="btn1" name="submitest">
+Send
+</button>
+</body>
+</html>
